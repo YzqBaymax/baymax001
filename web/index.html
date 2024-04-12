@@ -109,7 +109,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#mkdocsgithub" class="md-skip">
           Skip to content
         </a>
       
@@ -449,6 +449,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    搭建网站
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -458,6 +469,88 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      必要的前期准备
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipmkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      下载pip（用于获取mkdocs）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      下载mkdocs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      创建本地文件夹，并进行本地网站浏览
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocs_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      对mkdocs文件进行简单修改
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    <span class="md-ellipsis">
+      在Github上创建仓库（从下面开始的所有操作都要梯子，不然网络不稳定）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      进行github仓库远程连接
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -483,6 +576,77 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      必要的前期准备
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipmkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      下载pip（用于获取mkdocs）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      下载mkdocs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      创建本地文件夹，并进行本地网站浏览
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocs_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      对mkdocs文件进行简单修改
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    <span class="md-ellipsis">
+      在Github上创建仓库（从下面开始的所有操作都要梯子，不然网络不稳定）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      进行github仓库远程连接
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -499,7 +663,97 @@
   
 
 
-<h1 id="_1">本流程将教会你如何搭建一个像这样的网站</h1>
+<h1 id="mkdocsgithub">Mkdocs+Github搭建网站</h1>
+<h2 id="_1">必要的前期准备</h2>
+<div class="admonition 获得一个稳定的梯子">
+<p class="admonition-title">获得一个稳定的梯子</p>
+</div>
+<div class="admonition 下载gitbash">
+<p class="admonition-title">下载gitbash</p>
+<p>Git bash与cmd一样都是Shell，但是Git bash的兼容性更好，两者功能是互补的。</p>
+<p>Git bash官方网站：<a href="https://gitforwindows.org/">https://gitforwindows.org/</a></p>
+</div>
+<div class="admonition 拥有一个github账号">
+<p class="admonition-title">拥有一个github账号</p>
+<p>直接去Github官网注册就行，记住用户名。</p>
+</div>
+<div class="admonition 下载visualcode">
+<p class="admonition-title">下载visualcode</p>
+</div>
+<h2 id="pipmkdocs">下载pip（用于获取mkdocs）</h2>
+<div class="admonition 在gitbash中完成">
+<p class="admonition-title">在gitbash中完成</p>
+<p>详情见<a href="https://www.runoob.com/w3cnote/python-pip-install-usage.html">https://www.runoob.com/w3cnote/python-pip-install-usage.html</a></p>
+</div>
+<h2 id="mkdocs">下载mkdocs</h2>
+<div class="admonition 在gitbash中完成">
+<p class="admonition-title">在gitbash中完成</p>
+<p>输入pip install mkdocs-material</p>
+</div>
+<h2 id="_2">创建本地文件夹，并进行本地网站浏览</h2>
+<div class="admonition 在gitbash中完成">
+<p class="admonition-title">在gitbash中完成</p>
+<p>1.输入mkdocs new name(name你自己取个名字就行)</p>
+<p><img alt="" src="../image/Pasted%20image%2020240412131614.png" /></p>
+<p>2.输入cd name(name就是你上面取的文件名字，cd表示进入文件)</p>
+<p><img alt="alt text" src="../image-7.png" /></p>
+<p>3.输入mkdocs serve，复制出现的网址信息，粘贴到浏览器访问即可看到预览信息 <br />
+这个网站只能在本地查看，不能让别人看。</p>
+</div>
+<h2 id="mkdocs_1">对mkdocs文件进行简单修改</h2>
+<div class="admonition 在visalcode里完成">
+<p class="admonition-title">在visalcode里完成</p>
+<p>1.打开你的文件夹，比如我就是打开my_wiki</p>
+<p>2.然后按照下图打开site文件里面的mkdocs.yml</p>
+<p>输入如下代码:<br />
+site_name: My Docs<br />
+repo_name: 你的Github用户名/你的仓库名<br />
+repo_url: https://github.com/你的Github用户名/你的仓库名</p>
+<p><img alt="alt text" src="../image-12.png" /></p>
+<p>3.打开index.md,输入<br />
+“# 这是我的第一个网站”（只用输入双引号内的内容）</p>
+</div>
+<h2 id="github">在Github上创建仓库（从下面开始的所有操作都要梯子，不然网络不稳定）</h2>
+<div class="admonition 在浏览器中完成">
+<p class="admonition-title">在浏览器中完成</p>
+<p>1.进入github网站，点击右上方的头像</p>
+<p>2.点击Your repositories</p>
+<p><img alt="" src="../image/1712899649924.png" /></p>
+<p>3.点击"New"</p>
+<p><img alt="alt text" src="../1712900608389.jpg" /></p>
+<p>4.命名你的仓库，记住你的仓库名。</p>
+<p>选择Public。</p>
+<p>创建仓库！</p>
+<p><img alt="alt text" src="../image-8.png" /></p>
+<p>5.点击"creating a new file"</p>
+<p><img alt="alt text" src="../image-10.png" /></p>
+<p>6.命名文件（随便命名）</p>
+<p>往文件里面随便打些东西</p>
+<p>Commit changes</p>
+<p><img alt="alt text" src="../image-11.png" /></p>
+</div>
+<h2 id="github_1">进行github仓库远程连接</h2>
+<div class="admonition 在gitbash中完成">
+<p class="admonition-title">在gitbash中完成</p>
+<p>详情见<a href="https://blog.csdn.net/qq_41234663/article/details/110645327">https://blog.csdn.net/qq_41234663/article/details/110645327</a><br />
+步骤4选第二行那条</p>
+<p>这上面有些可能不太使用，下图是全流程</p>
+<p><img alt="alt text" src="../image-15.png" /></p>
+<p><img alt="alt text" src="../image-16.png" /></p>
+<p><img alt="alt text" src="../image-17.png" /></p>
+<p>如果出现这种错误，说明连接已经存在，按下图解决，没有则跳过下面两张图</p>
+<p><img alt="alt text" src="../image-18.png" /></p>
+<p><img alt="alt text" src="../image-19.png" /></p>
+<p>————————————————————————————————————————————————————————————    </p>
+<p><img alt="alt text" src="../image-20.png" /></p>
+<p>出现以下Waring继续git add .即可，没有则跳过下面第一张图</p>
+<p><img alt="alt text" src="../image-21.png" /></p>
+<p>—————————————————————————————————————————————————————————————</p>
+<p><img alt="alt text" src="../image-22.png" /></p>
+<p><img alt="alt text" src="../image-23.png" /></p>
+<p>划线部分就是我们的网站，这个是可以允许他人浏览的。</p>
+</div>
+<style>p{text-indent:2em}</style>
 
 
 
