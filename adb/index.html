@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../adb/">
+        <link rel="prev" href="../gitbash/">
       
       
-        <link rel="next" href="../fileshare/">
+        <link rel="next" href="../knowledge/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>一些零碎的小知识 - 大白001</title>
+        <title>adb 基本操作 - 大白001</title>
       
     
     
@@ -111,7 +111,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#android-debug-bridge-adb" class="md-skip">
           Skip to content
         </a>
       
@@ -145,7 +145,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              一些零碎的小知识
+              adb 基本操作
             
           </span>
         </div>
@@ -260,9 +260,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../adb/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -277,11 +279,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../knowledge/" class="md-tabs__link">
         
   
     
@@ -433,26 +433,6 @@
       
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../adb/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    adb 基本操作
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -469,7 +449,7 @@
           
   
   <span class="md-ellipsis">
-    一些零碎的小知识
+    adb 基本操作
   </span>
   
 
@@ -480,7 +460,7 @@
         
   
   <span class="md-ellipsis">
-    一些零碎的小知识
+    adb 基本操作
   </span>
   
 
@@ -502,20 +482,77 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
-      网页分享
+      1. 环境配置
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 环境配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-adb" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 安装 ADB
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
     <span class="md-ellipsis">
-      课件下载
+      1.2 连接设备
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-usb" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 安装 USB 驱动
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-adb" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. ADB 命令行操作
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. ADB 命令行操作">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 列出连接的设备
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 安装应用
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -523,6 +560,26 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../knowledge/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    一些零碎的小知识
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -614,20 +671,77 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
-      网页分享
+      1. 环境配置
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 环境配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-adb" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 安装 ADB
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
     <span class="md-ellipsis">
-      课件下载
+      1.2 连接设备
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-usb" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 安装 USB 驱动
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-adb" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. ADB 命令行操作
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. ADB 命令行操作">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 列出连接的设备
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 安装应用
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -649,54 +763,30 @@
   
 
 
-<h1 id="_1">关于如何高效获取与分享学习资料</h1>
-<h2 id="_2">网页分享</h2>
-<details class="将网页保存为mhtml格式">
-<summary>将网页保存为mhtml格式</summary>
-<p>有时候我们需要将一些网页内容分享给朋友，如果这个网站需要账号登陆才能查看，将这个网页保存为html文件分享后，朋友因账号检测无法查看网页内容。  </p>
-<p>比如说我想把有机化学第六章测试这个网页内容分享出去，但如果直接ctrl+s保存分享，朋友会因为学在浙大的账号检测导致网页内容丢失，当然可以用Windows的网页捕获截取全屏（右上角三点——截图——捕获全页），但是一个长图片很难用，而且不能用ctrl+f等功能。   </p>
-<p>保存mhtml格式：   </p>
-<p>1.右键chrome快捷方式，选择快捷方式一栏，在目标输入框chrome.exe后加入空格和--save-page-as-mhtml，再重新打开chrome。</p>
-<p><img alt="" src="../image/Pasted%20image%2020240412100546.png" /></p>
-<p>2.在Chrome打开你要分享的网页，先完整浏览一遍页面，确保图片都加载出来了！（否则会有内容丢失），然后按ctrl+s，保存到桌面就ok啦，要分享给朋友的话直接把链接拖到聊天栏，就可以分享这个mhtml文件。</p>
-<p><img alt="" src="../image/Pasted%20image%2020240412102851.png" /></p>
-</details>
-<h2 id="_3">课件下载</h2>
-<details class="如何下载学在浙大上老师没有开放权限的课件">
-<summary>如何下载学在浙大上老师没有开放权限的课件</summary>
-<p>Solution1：使用ZLA软件（下载链接见软件分享）  </p>
-<p>Solution2：  </p>
-<p>1.网页打开学在浙大</p>
-<p>2.找到需要下载的课件</p>
-<p>3.用“Ctrl+Shift+I”或F12 打开“开发人员工具”；</p>
-<p><img alt="" src="../image/Pasted%20image%2020240412103619.png" /></p>
-<p>4.通过下图红框里的“》”或者“+”号，找到“网络”。并且保证绿色方框里为“正在记录网络活动”的状态（这个一般点击“网络”后就是开启的状态了，即蓝框里的按钮是亮的，万一有可能未开启的话，可以点击一下上面蓝框里的按钮）。</p>
-<p><img alt="alt text" src="../image-1.png" /></p>
-<p>5.点击打开需要下载的文件</p>
-<p><img alt="alt text" src="../image-2.png" /></p>
-<p>点击打开之后，如下图</p>
-<p><img alt="alt text" src="../image-3.png" /></p>
-<p>6.在右侧的一群链接里，找到url开头的一个链接</p>
-<p><img alt="alt text" src="../image-4.png" /></p>
-<p>7.点击url的链接后，最右侧的页面里，找到“预览”（这个之前用过的再次打开是可以直接看到，如果之前没用过，需要在“》”这个更多选项里找找看）。</p>
-<p><img alt="alt text" src="../image-5.png" /></p>
-<p>8.“预览”的页面上有一段url链接（如上图红框里）。复制双引号里面的内容，打开一个新的网页标签，在网址中粘贴刚刚复制的内容，按下“enter”键，即可下载课件成功。（有些浏览器按下“enter”键是打开课件，然后会有可以下载的标志，有些是按下“enter”键直接下载了）</p>
-<p><img alt="alt text" src="../image-6.png" /></p>
-</details>
-<details class="如何下载智云课堂上的课件">
-<summary>如何下载智云课堂上的课件</summary>
-<p>首先说明，智云课堂是自带PPT导出，但是功能非常捞，因为智云课堂的视频时间简直乱标，有些ppt因为时间错位根本没扫描。就算时间正常，导出来之后的ppt存在空白空隙（虽然我感觉这主要是因为WPS PPT很捞）</p>
-<p>Solution：</p>
-<p>1.使用ZLA导出全部图片（设置里不要选择自动转为PDF，因为WPS内页数删除很麻烦，而且WPS PDF他妈的删除后保存还要会员）</p>
-<p>2.打开 Microsoft PointPoint<br />
-备注：如果电脑上没有Microsoft Office，直接去ZJUers轻首页-正版软件免费下载（注意区分Windows版本和Mac OS版本）<br />
-以及，这个下载完后桌面上不会出现快捷方式，可以在"开始"处找到</p>
-<p>3.接下来要做的就是在每一页导入一张图片，不要用“插入-图片”功能，这是在同一页导入图片。使用“插入-相册-新建相册”功能，导入所有图片，并在“图片版式”中选择“适应幻灯片尺寸”，点击“创建”。你就会惊奇地发现，你成功地把老师PPT从智云扒了下来，且图片完美填充页面。</p>
-<p><img alt="" src="../image/1712890810116.png" /></p>
-<p>4.删除重复ppt，只保留完整页ppt（因为要转pdf）</p>
-<p>推荐操作：只用键盘 右手删除键（Backspace或Delete） 左手ctrl+z撤回误删的页面</p>
-</details>
-<style>p{text-indent:2em}</style>
+<h1 id="android-debug-bridge-adb">Android Debug Bridge (ADB) 操作手册</h1>
+<p><strong>Android Debug Bridge</strong>，简称 ADB，是 Android 平台开发中的一个核心组件，它提供了一种通过命令行接口与 Android 设备进行通信的桥梁。此工具支持多种功能，包括安装和调试应用程序、设备状态检查、文件传输以及执行设备上的 shell 命令等。以下是使用 ADB 的关键步骤和常用命令的详细说明。</p>
+<h2 id="1">1. 环境配置</h2>
+<h3 id="11-adb">1.1 安装 ADB</h3>
+<ol>
+<li>访问 <a href="https://developer.android.com/studio/releases/platform-tools">Android SDK Platform Tools</a> 页面，下载最新版本的 <code>platform-tools</code>。</li>
+<li>解压缩下载的 ZIP 文件到你的开发环境路径，通常包含 <code>adb.exe</code> 及其他相关工具，这一步操作见<a href="https://blog.csdn.net/weixin_44205779/article/details/128215134?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171785530116800226525318%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=171785530116800226525318&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-128215134-null-null.142^v100^pc_search_result_base3&amp;utm_term=win11%E5%AE%89%E8%A3%85adb&amp;spm=1018.2226.3001.4187">【adb】--- win11 配置 adb环境 超详细 （持续更新中）</a></li>
+</ol>
+<h3 id="12">1.2 连接设备</h3>
+<ol>
+<li>在 Android 设备上：</li>
+<li>进入 <strong>开发者选项</strong> ，开启 <strong>USB调试</strong>。</li>
+<li>根据设备型号，可能需要在 <strong>安全设置</strong> 中允许电脑的调试权限。</li>
+<li>使用 USB 数据线将设备连接到电脑。</li>
+<li>当设备提示授权请求时，确认允许电脑进行调试。</li>
+</ol>
+<h3 id="13-usb">1.3 安装 USB 驱动</h3>
+<p>确保你的电脑已安装了适用于所连接设备的官方 USB 驱动。在设备管理器中检查设备是否被正确识别。</p>
+<h2 id="2-adb">2. ADB 命令行操作</h2>
+<h3 id="21">2.1 列出连接的设备</h3>
+<p>```bash
+adb devices</p>
+<h3 id="22">2.2 安装应用</h3>
+<p>adb install [-r] <path_to_apk></p>
 
 
 
