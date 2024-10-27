@@ -3,9 +3,13 @@ repo_name: YzqBaymax/repository
 repo_url: https://github.com/YzqBaymax/repository
 use_directory_urls: true
 nav:
-  - Website: 
-    - aabb: about.md
-  - Git Bash基本操作: index.md
+  - 欢迎来到大白001: index.md
+  - Git Bash基本操作: gitbash.md
+  - adb 基本操作: adb.md
+  - 一些零碎的小知识: knowledge.md
+  - 软件分享: fileshare.md
+  - 搭建网站: web.md
+  - 润色网站: polish.md
 markdown_extensions:
   - admonition
   - pymdownx.details

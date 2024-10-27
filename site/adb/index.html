@@ -9,21 +9,25 @@
       
       
       
+        <link rel="prev" href="../gitbash/">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="next" href="../knowledge/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
     
     
       
-        <title>大白001</title>
+        <title>adb 基本操作 - 大白001</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.bcfcd587.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
   
@@ -83,7 +87,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -106,6 +110,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#android-debug-bridge-adb" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -116,7 +125,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="大白001" class="md-header__button md-logo" aria-label="大白001" data-md-component="logo">
+    <a href=".." title="大白001" class="md-header__button md-logo" aria-label="大白001" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -136,7 +145,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              adb 基本操作
             
           </span>
         </div>
@@ -219,7 +228,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/." class="md-tabs__link">
+      <a href=".." class="md-tabs__link">
         
   
     
@@ -236,7 +245,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/gitbash/" class="md-tabs__link">
+      <a href="../gitbash/" class="md-tabs__link">
         
   
     
@@ -251,9 +260,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="/adb/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -270,7 +281,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/knowledge/" class="md-tabs__link">
+      <a href="../knowledge/" class="md-tabs__link">
         
   
     
@@ -287,7 +298,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/fileshare/" class="md-tabs__link">
+      <a href="../fileshare/" class="md-tabs__link">
         
   
     
@@ -304,7 +315,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/web/" class="md-tabs__link">
+      <a href="../web/" class="md-tabs__link">
         
   
     
@@ -321,7 +332,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/polish.md" class="md-tabs__link">
+      <a href="../polish.md" class="md-tabs__link">
         
   
     
@@ -355,7 +366,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="大白001" class="md-nav__button md-logo" aria-label="大白001" data-md-component="logo">
+    <a href=".." title="大白001" class="md-nav__button md-logo" aria-label="大白001" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -385,7 +396,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -405,7 +416,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gitbash/" class="md-nav__link">
+      <a href="../gitbash/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -422,10 +433,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/adb/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    adb 基本操作
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -434,6 +465,101 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 环境配置
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 环境配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-adb" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 安装 ADB
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 连接设备
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-usb" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 安装 USB 驱动
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-adb" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. ADB 命令行操作
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. ADB 命令行操作">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 列出连接的设备
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 安装应用
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -445,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/knowledge/" class="md-nav__link">
+      <a href="../knowledge/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -465,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/fileshare/" class="md-nav__link">
+      <a href="../fileshare/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -485,7 +611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/web/" class="md-nav__link">
+      <a href="../web/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -505,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/polish.md" class="md-nav__link">
+      <a href="../polish.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -535,6 +661,91 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 环境配置
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 环境配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-adb" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 安装 ADB
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 连接设备
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-usb" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 安装 USB 驱动
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-adb" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. ADB 命令行操作
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. ADB 命令行操作">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 列出连接的设备
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 安装应用
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -546,8 +757,49 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+  
+  
+
+
+<h1 id="android-debug-bridge-adb">Android Debug Bridge (ADB) 操作手册</h1>
+<p><strong>Android Debug Bridge</strong>，简称 ADB，是 Android 平台开发中的一个核心组件，它提供了一种通过命令行接口与 Android 设备进行通信的桥梁。此工具支持多种功能，包括安装和调试应用程序、设备状态检查、文件传输以及执行设备上的 shell 命令等。以下是使用 ADB 的关键步骤和常用命令的详细说明。</p>
+<h2 id="1">1. 环境配置</h2>
+<h3 id="11-adb">1.1 安装 ADB</h3>
+<ol>
+<li>访问 <a href="https://developer.android.com/studio/releases/platform-tools">Android SDK Platform Tools</a> 页面，下载最新版本的 <code>platform-tools</code>。</li>
+<li>解压缩下载的 ZIP 文件到你的开发环境路径，通常包含 <code>adb.exe</code> 及其他相关工具，这一步操作见<a href="https://blog.csdn.net/weixin_44205779/article/details/128215134?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171785530116800226525318%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=171785530116800226525318&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-128215134-null-null.142^v100^pc_search_result_base3&amp;utm_term=win11%E5%AE%89%E8%A3%85adb&amp;spm=1018.2226.3001.4187">【adb】--- win11 配置 adb环境 超详细 （持续更新中）</a></li>
+</ol>
+<h3 id="12">1.2 连接设备</h3>
+<ol>
+<li>在 Android 设备上：</li>
+<li>进入 <strong>开发者选项</strong> ，开启 <strong>USB调试</strong>。</li>
+<li>根据设备型号，可能需要在 <strong>安全设置</strong> 中允许电脑的调试权限。</li>
+<li>使用 USB 数据线将设备连接到电脑。</li>
+<li>当设备提示授权请求时，确认允许电脑进行调试。</li>
+</ol>
+<h3 id="13-usb">1.3 安装 USB 驱动</h3>
+<p>确保你的电脑已安装了适用于所连接设备的官方 USB 驱动。在设备管理器中检查设备是否被正确识别。</p>
+<h2 id="2-adb">2. ADB 命令行操作</h2>
+<h3 id="21">2.1 列出连接的设备</h3>
+<p>```bash
+adb devices</p>
+<h3 id="22">2.2 安装应用</h3>
+<p>adb install [-r] <path_to_apk></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -587,10 +839,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": ["search.suggest", "content.code.annotate", "content.code.copy", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top"], "search": "/assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "content.code.annotate", "content.code.copy", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.1e8ae164.min.js"></script>
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
       
     
   </body>
